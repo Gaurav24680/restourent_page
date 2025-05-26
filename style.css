@@ -1,0 +1,423 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    background: #F0FAF7;
+    color: #222;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+  
+  header {
+    background: #1AC073;
+    color: #fff;
+    padding: 24px 0;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo, .footer-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  
+  .nav-icons img {
+    width: 24px;
+    margin-left: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  
+  .hero {
+    background: #1AC073;
+    color: #fff;
+    padding: 80px 0 60px 0;
+  }
+  
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .hero-text {
+    max-width: 540px;
+  }
+  
+  .hero-text h1 {
+    font-size: 3.5rem;
+    margin-bottom: 16px;
+    font-weight: 700;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 32px;
+  }
+  
+  .search-form {
+    display: flex;
+    max-width: 400px;
+  }
+  
+  .search-form input {
+    flex: 1;
+    padding: 14px 16px;
+    border: none;
+    border-radius: 6px 0 0 6px;
+    font-size: 1rem;
+  }
+  
+  .search-form button {
+    background: #F3BA00;
+    color: #222;
+    border: none;
+    padding: 0 32px;
+    border-radius: 0 6px 6px 0;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .hero-image img {
+    width: 350px;
+    max-width: 100%;
+  }
+  
+  .home-kitchen {
+    background: #f8f9fa;
+    padding: 48px 0 32px 0;
+  }
+  
+  .home-kitchen h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+  }
+  
+  .food-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+  }
+  
+  .food-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .food-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+  }
+  
+  .food-info {
+    padding: 16px;
+  }
+  
+  .food-info h3 {
+    font-size: 1.1rem;
+    margin: 0 0 8px 0;
+  }
+  
+  .food-meta {
+    display: flex;
+    gap: 12px;
+    font-size: 0.95rem;
+    color: #888;
+  }
+  
+  .add-cart-btn {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    background: #fede74;
+    border: none;
+    border-radius: 20%;
+    width: 25px;
+    height: 25px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #222;
+    cursor: pointer;
+  }
+  
+  .popular-items {
+    background: #f8f9fa;
+    padding: 32px 0;
+    text-align: center;
+  }
+  
+  .popular-items h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+  }
+  
+  .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 24px;
+  }
+  
+  .carousel-btn {
+    background: #2EBF91;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .carousel-track {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+  }
+  
+  .request-dish-btn {
+    background: #2EBF91;
+    color: #fff;
+    border: none;
+    padding: 14px 36px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 16px;
+  }
+  
+  .about {
+    background: #e6faef;
+    padding: 64px 0 48px 0;
+    text-align: center;
+  }
+  
+  .about-content h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  
+  .about-content p {
+    font-size: 1.1rem;
+    margin-bottom: 32px;
+  }
+  
+  .about-video {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .about-video img {
+    width: 480px;
+    border-radius: 18px;
+  }
+  
+  .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #18c97e;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    font-size: 2.5rem;
+    cursor: pointer;
+    opacity: 0.95;
+  }
+  
+  .contact {
+    background: #f8f9fa;
+    padding: 64px 0 0 0;
+  }
+  
+  .contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+  }
+  
+  .contact-form {
+    flex: 1;
+    background: #fff;
+    border-radius: 12px;
+    padding: 32px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+  
+  .contact-form h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  
+  .contact-form p {
+    font-size: 1rem;
+    margin-bottom: 24px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-bottom: 12px;
+  }
+  
+  .contact-form textarea {
+    min-height: 80px;
+    resize: vertical;
+  }
+  
+  .contact-form button {
+    background: #18c97e;
+    color: #fff;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .contact-image img {
+    width: 320px;
+    max-width: 100%;
+  }
+  
+  footer {
+    background: #18c97e;
+    color: #fff;
+    padding: 32px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .footer-social a {
+    margin-left: 11px; /* doubled from 32px */
+    display: inline-block;
+  }
+  .footer-social a:first-child {
+    margin-left: 0; /* prevent spacing before the first icon */
+  }
+  
+  .about-video {
+    position: relative;
+    display: inline-block;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  
+  .about-video video {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 18px;
+    background: #000;
+  }
+  
+  .play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #18c97e;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    font-size: 3rem;
+    cursor: pointer;
+    opacity: 0.95;
+    transition: background 0.2s;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .play-btn:hover {
+    background: #13a86a;
+  }
+
+  
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .food-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .hero-content, .contact-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    .hero-image, .contact-image {
+      margin-top: 32px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 0 12px;
+    }
+    .food-grid {
+      grid-template-columns: 1fr;
+    }
+    .carousel-track {
+      gap: 8px;
+    }
+    .about-video img {
+      width: 100%;
+    }
+  }
